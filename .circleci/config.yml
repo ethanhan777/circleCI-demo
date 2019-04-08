@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: Run Tests
-          command: cd ./.circleci/scripts && ./test.sh
+          command: cd ./.circleci/scripts && sh ./test.sh
