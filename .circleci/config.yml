@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+
+    machine: true
+    
+    steps:
+      - checkout
+      - run:
+          name: Run Tests
+          command: cd ./.circleci/scripts && ./test.sh
