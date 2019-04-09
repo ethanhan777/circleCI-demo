@@ -1,5 +1,3 @@
-set -eo pipefail
-
 echo "run test below..."
 
 echo "test 1"
